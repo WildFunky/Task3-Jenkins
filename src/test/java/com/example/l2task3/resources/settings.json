@@ -8,7 +8,8 @@
     "chrome": {
       "webDriverVersion": "103.0.5060.134",
       "capabilities": {
-        "enableVNC": false
+        "enableVNC": false,
+        "setHeadless" : true
       },
       "options": {
         "intl.accept_languages": "en",
