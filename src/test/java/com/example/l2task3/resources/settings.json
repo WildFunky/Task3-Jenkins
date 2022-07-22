@@ -9,7 +9,11 @@
       "webDriverVersion": "103.0.5060.134",
       "capabilities": {
         "enableVNC": false,
-        "setHeadless" : true
+        "chromeOptions" : {
+          "args" : "--no-sandbox",
+          "args" : "--headless"
+        }
+
       },
       "options": {
         "intl.accept_languages": "en",
