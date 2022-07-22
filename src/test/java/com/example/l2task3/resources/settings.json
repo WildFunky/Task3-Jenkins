@@ -8,7 +8,7 @@
     "chrome": {
       "webDriverVersion": "103.0.5060.134",
       "capabilities": {
-        "enableVNC": true
+        "enableVNC": false
       },
       "options": {
         "intl.accept_languages": "en",

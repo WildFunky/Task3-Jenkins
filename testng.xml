@@ -4,8 +4,8 @@
     <test name="Task3-AllTests">
 
         <classes>
-            <class name="com.example.l2task3.tests.CardsTest">
-            </class>
+<!--            <class name="com.example.l2task3.tests.CardsTest">-->
+<!--            </class>-->
             <class name="com.example.l2task3.tests.CookiesFormTest">
 
             </class>
@@ -17,12 +17,12 @@
         </classes>
     </test>
 
-    <test name="Task3-CardsTest">
-        <classes>
-            <class name="com.example.l2task3.tests.CardsTest">
+<!--    <test name="Task3-CardsTest">-->
+<!--        <classes>-->
+<!--            <class name="com.example.l2task3.tests.CardsTest">-->
 
-            </class>
-        </classes>
-    </test>
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
