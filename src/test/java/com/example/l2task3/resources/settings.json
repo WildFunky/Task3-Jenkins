@@ -6,7 +6,7 @@
 
   "driverSettings": {
     "chrome": {
-      "webDriverVersion": "102.0.5005.61",
+      "webDriverVersion": "103.0.5060.134",
       "capabilities": {
         "enableVNC": true
       },
