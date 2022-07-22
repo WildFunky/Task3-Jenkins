@@ -29,4 +29,13 @@
             <version>LATEST</version>
         </dependency>
     </dependencies>
+
+    <build>
+    <resources>
+        <resource>
+            <filtering>false</filtering>
+            <directory>src/test/java/com/example/l2task3/resources</directory>
+        </resource>
+    </resources>
+    </build>
 </project>
