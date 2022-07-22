@@ -5,24 +5,14 @@
 
         <classes>
             <class name="com.example.l2task3.tests.CardsTest">
-                <methods>
-                    <include name="cardsTest"/>
-                </methods>
             </class>
             <class name="com.example.l2task3.tests.CookiesFormTest">
-                <methods>
-                    <include name="cookiesFormTest"/>
-                </methods>
+
             </class>
             <class name="com.example.l2task3.tests.HelpFormTest">
-                <methods>
-                    <include name="helpFormTest"/>
-                </methods>
+
             </class>
             <class name="com.example.l2task3.tests.TimerTest">
-                <methods>
-                    <include name="timerTest"/>
-                </methods>
             </class>
         </classes>
     </test>
@@ -30,9 +20,7 @@
     <test name="Task3-CardsTest">
         <classes>
             <class name="com.example.l2task3.tests.CardsTest">
-                <methods>
-                    <include name="cardsTest"/>
-                </methods>
+
             </class>
         </classes>
     </test>
