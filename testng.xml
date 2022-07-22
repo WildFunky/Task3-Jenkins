@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test verbose="2" preserve-order="true" name="Task3-AllTests">
+        
+        <classes>
+            <class name="com.example.l2task3.tests.CardsTest">
+                <methods>
+                    <include name="cardsTest"/>
+                </methods>
+            </class>
+            <class name="com.example.l2task3.tests.CookiesFormTest">
+                <methods>
+                    <include name="cookiesFormTest"/>
+                </methods>
+            </class>
+            <class name="com.example.l2task3.tests.HelpFormTest">
+                <methods>
+                    <include name="helpFormTest"/>
+                </methods>
+            </class>
+            <class name="com.example.l2task3.tests.TimerTest">
+                <methods>
+                    <include name="timerTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Task3-CardsTest">
+        <classes>
+            <class name="com.example.l2task3.tests.CardsTest">
+                <methods>
+                    <include name="cardsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

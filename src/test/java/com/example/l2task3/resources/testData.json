@@ -1,0 +1,8 @@
+{
+  "passwordLength" : "10",
+  "emailLength" : "8",
+  "domainLength" : "5",
+  "numberOfInterests" : "3",
+  "pathToImage" : "\\src\\test\\java\\com\\example\\l2task3\\resources\\image.png",
+  "timerStartValue" : "00:00"
+}
