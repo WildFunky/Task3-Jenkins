@@ -19,7 +19,7 @@
         "download.prompt_for_download": "false",
         "download.default_directory": "//home//selenium//downloads"
       },
-      "startArguments": ["--no-sandbox", "--remote-debugging-port=9222"]
+      "startArguments": ["--headless", "--no-sandbox", "--remote-debugging-port=9222"]
     },
     "firefox": {
       "webDriverVersion": "latest",
