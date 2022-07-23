@@ -9,10 +9,9 @@
       "webDriverVersion": "LATEST",
       "capabilities": {
         "enableVNC": false,
-        "chromeOptions" : {
-          "args" : "no-sandbox, headless, remote-debugging-port=9222"
-        }
-
+        "no-sandbox" : true,
+        "headless" : true,
+        "remote-debugging-port" : 9222
       },
       "options": {
         "intl.accept_languages": "en",
