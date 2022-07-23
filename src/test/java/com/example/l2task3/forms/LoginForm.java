@@ -16,7 +16,7 @@ public class LoginForm extends Form {
     private final ITextBox domainField = getElementFactory()
             .getTextBox(By.xpath("//input[@placeholder='Domain']"), "domain field");
     private final IButton dropDownOpener = getElementFactory()
-            .getButton(By.xpath("//div[@class='dropdown__opener']"), "dropDown opener btn");
+            .getButton(By.xpath("//div[@class='dropdown dropdown--gray']"), "dropDown opener btn");
     private final ICheckBox termsAndConditions = getElementFactory()
             .getCheckBox(By.xpath("//span[@class='checkbox__box']"), "terms and conditions checkbox");
     private final ILink nextLnk = getElementFactory()

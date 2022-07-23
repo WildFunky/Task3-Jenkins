@@ -4,8 +4,8 @@
     <test name="Task3-AllTests">
 
         <classes>
-<!--            <class name="com.example.l2task3.tests.CardsTest">-->
-<!--            </class>-->
+            <class name="com.example.l2task3.tests.CardsTest">
+            </class>
             <class name="com.example.l2task3.tests.CookiesFormTest">
 
             </class>
