@@ -6,12 +6,11 @@
 
   "driverSettings": {
     "chrome": {
-      "webDriverVersion": "103.0.5060.134",
+      "webDriverVersion": "LATEST",
       "capabilities": {
         "enableVNC": false,
         "chromeOptions" : {
-          "args" : "--no-sandbox",
-          "args" : "--headless"
+          "args" : "no-sandbox, headless"
         }
 
       },
