@@ -10,7 +10,7 @@
       "capabilities": {
         "enableVNC": false,
         "chromeOptions" : {
-          "args" : "no-sandbox, headless"
+          "args" : "no-sandbox, headless, remote-debugging-port=9222"
         }
 
       },
