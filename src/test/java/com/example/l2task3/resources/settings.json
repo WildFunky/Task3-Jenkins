@@ -8,10 +8,8 @@
     "chrome": {
       "webDriverVersion": "LATEST",
       "capabilities": {
-        "enableVNC": false,
-        "no-sandbox" : true,
-        "headless" : true,
-        "remote-debugging-port" : 9222
+        "enableVNC": false
+
       },
       "options": {
         "intl.accept_languages": "en",
@@ -21,7 +19,7 @@
         "download.prompt_for_download": "false",
         "download.default_directory": "//home//selenium//downloads"
       },
-      "startArguments": []
+      "startArguments": ["--no-sandbox", "--remote-debugging-port=9222"]
     },
     "firefox": {
       "webDriverVersion": "latest",
